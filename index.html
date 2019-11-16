@@ -12,9 +12,10 @@
                 <a-asset-item id="shuttle" response-type="arraybuffer" src="models/shuttle.glb"></a-asset-item>
                 <a-asset-item id="enterprise" response-type="arraybuffer" src="models/enterprise.glb"></a-asset-item>
                 <a-asset-item id="enterprise-e" response-type="arraybuffer" src="models/enterprise-e.glb"></a-asset-item>
+                <a-asset-item id="scene" response-type="arraybuffer" src="models/scene.gltf"></a-asset-item>
             </a-assets>
             <a-marker id="pattern-square" type="pattern" url="markers/pattern-square.patt">
-                <a-entity id="enterprise-e-model" gltf-model="#enterprise-e" position="0 0.5 0" scale="0.01 0.01 0.01"></a-entity>
+                <a-entity id="enterprise-e-model" gltf-model="#scene" position="0 0.5 0" scale="1 1 1"></a-entity>
             </a-marker>
             <a-entity camera></a-entity>
         </a-scene>
