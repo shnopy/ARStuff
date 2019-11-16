@@ -3,10 +3,18 @@
 <head>
     <script src="https://aframe.io/release/0.8.2/aframe.min.js"></script>
     <script src="https://raw.githack.com/jeromeetienne/AR.js/2.0.4/aframe/build/aframe-ar.js"></script>
-    <script src=""></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.0.1/dist/aframe-extra"></script>
     <title>ARStuff</title>
 </head>
-<body>
-    
+<body style="margin:0px;overflow:hidden;">
+    <a-scene embedded arjs>
+        <a-assets>
+            <a-asset-item id="" src=""></a-asset-item>
+        </a-assets>
+        <a-marker id="" type="" url="">
+            <a-entity id="" gltf-model="" material="" position="" scale=""></a-entity>
+        </a-marker>
+        <a-entity camera></a-entity>
+    </a-scene>
 </body>
 </html>
